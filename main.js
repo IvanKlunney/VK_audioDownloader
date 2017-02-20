@@ -128,7 +128,7 @@ ns.insertioNodes = function (link){
 };
 
 ns.eventHandling = function (el){
-    let self = this,
+    let self = this;
         el =   el.parentNode;
 
     if (!el.getAttribute('data-is-current') || el.getAttribute('data-is-current') === '0') return;
